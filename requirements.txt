@@ -1,0 +1,4 @@
+beautifulsoup4
+boxsdk>=3.9.2,<4
+python-dotenv
+requests

@@ -1,0 +1,20 @@
+{
+    "current_date": null,
+    "end_date": "2017-06-30",
+    "failed_files": [
+        {
+            "date": "2017-06-11",
+            "filename": "log20170611.csv",
+            "link": "https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2017/Qtr2/log20170611.zip",
+            "stage": "scrape",
+            "reason": "scrape: ChunkedEncodingError: ('Connection broken: IncompleteRead(33542494 bytes read, 345691785 more expected)', IncompleteRead(33542494 bytes read, 345691785 more expected))"
+        },
+        {
+            "date": "2017-06-28",
+            "filename": "log20170628.csv",
+            "link": "https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2017/Qtr2/log20170628.zip",
+            "stage": "scrape",
+            "reason": "scrape: ChunkedEncodingError: ('Connection broken: IncompleteRead(40754724 bytes read, 343125284 more expected)', IncompleteRead(40754724 bytes read, 343125284 more expected))"
+        }
+    ]
+}

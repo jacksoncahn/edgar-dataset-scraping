@@ -1,0 +1,629 @@
+{
+    "failures": {
+        "2003": [
+            {
+                "filename": "log20030530.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2003/Qtr2/log20030530.zip"
+            }
+        ],
+        "2004": [],
+        "2005": [
+            {
+                "filename": "log20051006.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2005/Qtr4/log20051006.zip"
+            }
+        ],
+        "2006": [
+            {
+                "filename": "log20060906.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2006/Qtr3/log20060906.zip"
+            },
+            {
+                "filename": "log20060320.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2006/Qtr1/log20060320.zip"
+            }
+        ],
+        "2007": [
+            {
+                "filename": "log20071230.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2007/Qtr4/log20071230.zip"
+            },
+            {
+                "filename": "log20070726.csv",
+                "reason": "box: FileNotFoundError: Box file not found: EDGAR log file/Unfiltered/2007/log20070726.csv"
+            },
+            {
+                "filename": "log20070627.csv",
+                "reason": "box: FileNotFoundError: Box file not found: EDGAR log file/Unfiltered/2007/log20070627.csv"
+            },
+            {
+                "filename": "log20070409.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2007/Qtr2/log20070409.zip"
+            },
+            {
+                "filename": "log20070122.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2007/Qtr1/log20070122.zip"
+            }
+        ],
+        "2008": [
+            {
+                "filename": "log20081207.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2008/Qtr4/log20081207.zip"
+            },
+            {
+                "filename": "log20081106.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2008/Qtr4/log20081106.zip"
+            },
+            {
+                "filename": "log20080913.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2008/Qtr3/log20080913.zip"
+            },
+            {
+                "filename": "log20080827.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2008/Qtr3/log20080827.zip"
+            },
+            {
+                "filename": "log20080808.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2008/Qtr3/log20080808.zip"
+            },
+            {
+                "filename": "log20080410.csv",
+                "reason": "box: FileNotFoundError: Box file not found: EDGAR log file/Unfiltered/2008/log20080410.csv"
+            },
+            {
+                "filename": "log20080302.csv",
+                "reason": "edgar: ConnectTimeout: HTTPSConnectionPool(host='www.sec.gov', port=443): Max retries exceeded with url: /dera/data/Public-EDGAR-log-file-data/2008/Qtr1/log20080302.zip (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sec.gov', port=443) at 0x19b09c22870>, 'Connection to www.sec.gov timed out. (connect timeout=None)'))"
+            }
+        ],
+        "2009": [
+            {
+                "filename": "log20091121.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2009/Qtr4/log20091121.zip"
+            },
+            {
+                "filename": "log20090109.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2009/Qtr1/log20090109.zip"
+            }
+        ],
+        "2010": [
+            {
+                "filename": "log20100102.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2010/Qtr1/log20100102.zip"
+            }
+        ],
+        "2011": [
+            {
+                "filename": "log20111213.csv",
+                "reason": "filtered completeness failed - missing_row_count=78, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20111210.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr4/log20111210.zip"
+            },
+            {
+                "filename": "log20111209.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr4/log20111209.zip"
+            },
+            {
+                "filename": "log20111108.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr4/log20111108.zip"
+            },
+            {
+                "filename": "log20110827.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr3/log20110827.zip"
+            },
+            {
+                "filename": "log20110817.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr3/log20110817.zip"
+            },
+            {
+                "filename": "log20110814.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr3/log20110814.zip"
+            },
+            {
+                "filename": "log20110703.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr3/log20110703.zip"
+            },
+            {
+                "filename": "log20110615.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr2/log20110615.zip"
+            },
+            {
+                "filename": "log20110614.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr2/log20110614.zip"
+            },
+            {
+                "filename": "log20110613.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr2/log20110613.zip"
+            },
+            {
+                "filename": "log20110610.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr2/log20110610.zip"
+            },
+            {
+                "filename": "log20110608.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr2/log20110608.zip"
+            },
+            {
+                "filename": "log20110515.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr2/log20110515.zip"
+            },
+            {
+                "filename": "log20110409.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr2/log20110409.zip"
+            },
+            {
+                "filename": "log20110406.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2011/Qtr2/log20110406.zip"
+            }
+        ],
+        "2012": [
+            {
+                "filename": "log20120617.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2012/Qtr2/log20120617.zip"
+            },
+            {
+                "filename": "log20120614.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2012/Qtr2/log20120614.zip"
+            },
+            {
+                "filename": "log20120427.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2012/Qtr2/log20120427.zip"
+            },
+            {
+                "filename": "log20120426.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2012/Qtr2/log20120426.zip"
+            }
+        ],
+        "2013": [
+            {
+                "filename": "log20131007.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2013/Qtr4/log20131007.zip"
+            },
+            {
+                "filename": "log20131006.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2013/Qtr4/log20131006.zip"
+            },
+            {
+                "filename": "log20130929.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2013/Qtr3/log20130929.zip"
+            },
+            {
+                "filename": "log20130923.csv",
+                "reason": "filtered completeness failed - missing_row_count=459, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20130616.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2013/Qtr2/log20130616.zip"
+            }
+        ],
+        "2014": [
+            {
+                "filename": "log20141213.csv",
+                "reason": "filtered completeness failed - missing_row_count=7, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20141017.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141017.zip"
+            },
+            {
+                "filename": "log20141016.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141016.zip"
+            },
+            {
+                "filename": "log20141015.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141015.zip"
+            },
+            {
+                "filename": "log20141014.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141014.zip"
+            },
+            {
+                "filename": "log20141013.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141013.zip"
+            },
+            {
+                "filename": "log20141012.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141012.zip"
+            },
+            {
+                "filename": "log20141011.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141011.zip"
+            },
+            {
+                "filename": "log20141010.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141010.zip"
+            },
+            {
+                "filename": "log20141008.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141008.zip"
+            },
+            {
+                "filename": "log20141007.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141007.zip"
+            },
+            {
+                "filename": "log20141006.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141006.zip"
+            },
+            {
+                "filename": "log20141005.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141005.zip"
+            },
+            {
+                "filename": "log20141004.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141004.zip"
+            },
+            {
+                "filename": "log20141003.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141003.zip"
+            },
+            {
+                "filename": "log20141001.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr4/log20141001.zip"
+            },
+            {
+                "filename": "log20140929.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140929.zip"
+            },
+            {
+                "filename": "log20140928.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140928.zip"
+            },
+            {
+                "filename": "log20140927.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140927.zip"
+            },
+            {
+                "filename": "log20140926.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140926.zip"
+            },
+            {
+                "filename": "log20140925.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140925.zip"
+            },
+            {
+                "filename": "log20140924.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140924.zip"
+            },
+            {
+                "filename": "log20140923.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140923.zip"
+            },
+            {
+                "filename": "log20140921.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140921.zip"
+            },
+            {
+                "filename": "log20140920.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140920.zip"
+            },
+            {
+                "filename": "log20140918.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140918.zip"
+            },
+            {
+                "filename": "log20140917.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140917.zip"
+            },
+            {
+                "filename": "log20140914.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140914.zip"
+            },
+            {
+                "filename": "log20140913.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140913.zip"
+            },
+            {
+                "filename": "log20140912.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140912.zip"
+            },
+            {
+                "filename": "log20140911.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140911.zip"
+            },
+            {
+                "filename": "log20140909.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140909.zip"
+            },
+            {
+                "filename": "log20140908.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140908.zip"
+            },
+            {
+                "filename": "log20140905.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140905.zip"
+            },
+            {
+                "filename": "log20140904.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140904.zip"
+            },
+            {
+                "filename": "log20140903.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140903.zip"
+            },
+            {
+                "filename": "log20140902.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140902.zip"
+            },
+            {
+                "filename": "log20140901.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140901.zip"
+            },
+            {
+                "filename": "log20140831.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140831.zip"
+            },
+            {
+                "filename": "log20140830.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140830.zip"
+            },
+            {
+                "filename": "log20140829.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140829.zip"
+            },
+            {
+                "filename": "log20140828.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140828.zip"
+            },
+            {
+                "filename": "log20140827.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140827.zip"
+            },
+            {
+                "filename": "log20140826.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140826.zip"
+            },
+            {
+                "filename": "log20140825.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140825.zip"
+            },
+            {
+                "filename": "log20140824.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140824.zip"
+            },
+            {
+                "filename": "log20140823.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140823.zip"
+            },
+            {
+                "filename": "log20140822.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140822.zip"
+            },
+            {
+                "filename": "log20140821.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140821.zip"
+            },
+            {
+                "filename": "log20140820.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140820.zip"
+            },
+            {
+                "filename": "log20140819.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140819.zip"
+            },
+            {
+                "filename": "log20140816.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140816.zip"
+            },
+            {
+                "filename": "log20140815.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140815.zip"
+            },
+            {
+                "filename": "log20140812.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140812.zip"
+            },
+            {
+                "filename": "log20140810.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140810.zip"
+            },
+            {
+                "filename": "log20140809.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140809.zip"
+            },
+            {
+                "filename": "log20140808.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140808.zip"
+            },
+            {
+                "filename": "log20140801.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140801.zip"
+            },
+            {
+                "filename": "log20140731.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140731.zip"
+            },
+            {
+                "filename": "log20140728.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140728.zip"
+            },
+            {
+                "filename": "log20140727.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140727.zip"
+            },
+            {
+                "filename": "log20140725.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140725.zip"
+            },
+            {
+                "filename": "log20140724.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140724.zip"
+            },
+            {
+                "filename": "log20140723.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140723.zip"
+            },
+            {
+                "filename": "log20140722.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140722.zip"
+            },
+            {
+                "filename": "log20140719.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140719.zip"
+            },
+            {
+                "filename": "log20140718.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr3/log20140718.zip"
+            },
+            {
+                "filename": "log20140710.csv",
+                "reason": "filtered completeness failed - missing_row_count=563, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140614.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr2/log20140614.zip"
+            },
+            {
+                "filename": "log20140422.csv",
+                "reason": "filtered completeness failed - missing_row_count=484, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140327.csv",
+                "reason": "filtered completeness failed - missing_row_count=272, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140322.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr1/log20140322.zip"
+            },
+            {
+                "filename": "log20140314.csv",
+                "reason": "filtered completeness failed - missing_row_count=314, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140313.csv",
+                "reason": "filtered completeness failed - missing_row_count=764, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140312.csv",
+                "reason": "filtered completeness failed - missing_row_count=498, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140311.csv",
+                "reason": "filtered completeness failed - missing_row_count=403, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140310.csv",
+                "reason": "filtered completeness failed - missing_row_count=351, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140309.csv",
+                "reason": "filtered completeness failed - missing_row_count=59, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140308.csv",
+                "reason": "filtered completeness failed - missing_row_count=50, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140307.csv",
+                "reason": "filtered completeness failed - missing_row_count=491, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140306.csv",
+                "reason": "filtered completeness failed - missing_row_count=583, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140305.csv",
+                "reason": "filtered completeness failed - missing_row_count=768, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140304.csv",
+                "reason": "filtered completeness failed - missing_row_count=1014, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140303.csv",
+                "reason": "filtered completeness failed - missing_row_count=740, unexpected_row_count=0"
+            },
+            {
+                "filename": "log20140121.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2014/Qtr1/log20140121.zip"
+            }
+        ],
+        "2015": [
+            {
+                "filename": "log20151026.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2015/Qtr4/log20151026.zip"
+            },
+            {
+                "filename": "log20151010.csv",
+                "reason": "edgar: ChunkedEncodingError: ('Connection broken: IncompleteRead(16766496 bytes read, 142905654 more expected)', IncompleteRead(16766496 bytes read, 142905654 more expected))"
+            },
+            {
+                "filename": "log20150728.csv",
+                "reason": "edgar: ChunkedEncodingError: ('Connection broken: IncompleteRead(117818344 bytes read, 112290916 more expected)', IncompleteRead(117818344 bytes read, 112290916 more expected))"
+            },
+            {
+                "filename": "log20150725.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2015/Qtr3/log20150725.zip"
+            },
+            {
+                "filename": "log20150724.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2015/Qtr3/log20150724.zip"
+            },
+            {
+                "filename": "log20150723.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2015/Qtr3/log20150723.zip"
+            },
+            {
+                "filename": "log20150316.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2015/Qtr1/log20150316.zip"
+            },
+            {
+                "filename": "log20150207.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2015/Qtr1/log20150207.zip"
+            }
+        ],
+        "2016": [
+            {
+                "filename": "log20161007.csv",
+                "reason": "box: FileNotFoundError: Box file not found: EDGAR log file/Filtered/2016/log20161007.csv"
+            },
+            {
+                "filename": "log20160304.csv",
+                "reason": "edgar: HTTP 503 for https://www.sec.gov/dera/data/Public-EDGAR-log-file-data/2016/Qtr1/log20160304.zip"
+            },
+            {
+                "filename": "log20160127.csv",
+                "reason": "box: BoxAPIException: Message: Item with the same name already exists\nStatus: 409\nCode: item_name_in_use\nRequest ID: zbgwcmihi9c140tv\nHeaders: {'date': 'Sun, 27 Sep 2026 07:25:28 GMT', 'content-type': 'application/json', 'x-envoy-upstream-service-time': '115', 'box-request-id': '14663e856f3de43d74da3e7152520af44', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000', 'via': '1.1 google', 'Alt-Svc': 'h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000', 'Transfer-Encoding': 'chunked'}\nURL: https://api.box.com/2.0/folders\nMethod: POST\nContext Info: {'conflicts': [{'type': 'folder', 'id': '400149450748', 'sequence_id': '0', 'etag': '0', 'name': 'Edgar log file'}]}"
+            },
+            {
+                "filename": "log20160126.csv",
+                "reason": "box: BoxAPIException: Message: Item with the same name already exists\nStatus: 409\nCode: item_name_in_use\nRequest ID: 5x9mvmihi9c6awv0\nHeaders: {'date': 'Sun, 27 Sep 2026 07:25:37 GMT', 'content-type': 'application/json', 'x-envoy-upstream-service-time': '106', 'box-request-id': '09bba61d5c6e349c001c4d62d03fe17fd', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000', 'via': '1.1 google', 'Alt-Svc': 'h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000', 'Transfer-Encoding': 'chunked'}\nURL: https://api.box.com/2.0/folders\nMethod: POST\nContext Info: {'conflicts': [{'type': 'folder', 'id': '400149450748', 'sequence_id': '0', 'etag': '0', 'name': 'Edgar log file'}]}"
+            },
+            {
+                "filename": "log20160125.csv",
+                "reason": "box: BoxAPIException: Message: Item with the same name already exists\nStatus: 409\nCode: item_name_in_use\nRequest ID: at16jxihi9cbib8k\nHeaders: {'date': 'Sun, 27 Sep 2026 07:25:45 GMT', 'content-type': 'application/json', 'x-envoy-upstream-service-time': '115', 'box-request-id': '04b81a20aa9533a9b0f6c06f683760ca0', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000', 'via': '1.1 google', 'Alt-Svc': 'h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000', 'Transfer-Encoding': 'chunked'}\nURL: https://api.box.com/2.0/folders\nMethod: POST\nContext Info: {'conflicts': [{'type': 'folder', 'id': '400149450748', 'sequence_id': '0', 'etag': '0', 'name': 'Edgar log file'}]}"
+            },
+            {
+                "filename": "log20160124.csv",
+                "reason": "box: BoxAPIException: Message: Item with the same name already exists\nStatus: 409\nCode: item_name_in_use\nRequest ID: c7zacyihi9cfgq8b\nHeaders: {'date': 'Sun, 27 Sep 2026 07:25:51 GMT', 'content-type': 'application/json', 'x-envoy-upstream-service-time': '117', 'box-request-id': '15031cd89f62e6b6d722845dbdef6c136', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000', 'via': '1.1 google', 'Alt-Svc': 'h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000', 'Transfer-Encoding': 'chunked'}\nURL: https://api.box.com/2.0/folders\nMethod: POST\nContext Info: {'conflicts': [{'type': 'folder', 'id': '400149450748', 'sequence_id': '0', 'etag': '0', 'name': 'Edgar log file'}]}"
+            },
+            {
+                "filename": "log20160123.csv",
+                "reason": "box: BoxAPIException: Message: Item with the same name already exists\nStatus: 409\nCode: item_name_in_use\nRequest ID: n3t07oihi9cjfto0\nHeaders: {'date': 'Sun, 27 Sep 2026 07:25:58 GMT', 'content-type': 'application/json', 'x-envoy-upstream-service-time': '127', 'box-request-id': '0abb01768a4e2c2e4d594e9d3bf8788a4', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000', 'via': '1.1 google', 'Alt-Svc': 'h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000', 'Transfer-Encoding': 'chunked'}\nURL: https://api.box.com/2.0/folders\nMethod: POST\nContext Info: {'conflicts': [{'type': 'folder', 'id': '400149450748', 'sequence_id': '0', 'etag': '0', 'name': 'Edgar log file'}]}"
+            },
+            {
+                "filename": "log20160122.csv",
+                "reason": "box: BoxAPIException: Message: Item with the same name already exists\nStatus: 409\nCode: item_name_in_use\nRequest ID: teyo4iihi9co9u2t\nHeaders: {'date': 'Sun, 27 Sep 2026 07:26:06 GMT', 'content-type': 'application/json', 'x-envoy-upstream-service-time': '144', 'box-request-id': '0ac25986e5e1b341abba525a8fc1ceb6', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000', 'via': '1.1 google', 'Alt-Svc': 'h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000', 'Transfer-Encoding': 'chunked'}\nURL: https://api.box.com/2.0/folders\nMethod: POST\nContext Info: {'conflicts': [{'type': 'folder', 'id': '400149450748', 'sequence_id': '0', 'etag': '0', 'name': 'Edgar log file'}]}"
+            },
+            {
+                "filename": "log20160121.csv",
+                "reason": "box: BoxAPIException: Message: Item with the same name already exists\nStatus: 409\nCode: item_name_in_use\nRequest ID: 2l5jrcihi9cu22dr\nHeaders: {'date': 'Sun, 27 Sep 2026 07:26:15 GMT', 'content-type': 'application/json', 'x-envoy-upstream-service-time': '118', 'box-request-id': '19baac651be6e30f874060d6483d2e298', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000', 'via': '1.1 google', 'Alt-Svc': 'h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000', 'Transfer-Encoding': 'chunked'}\nURL: https://api.box.com/2.0/folders\nMethod: POST\nContext Info: {'conflicts': [{'type': 'folder', 'id': '400149450748', 'sequence_id': '0', 'etag': '0', 'name': 'Edgar log file'}]}"
+            }
+        ],
+        "2017": [
+            {
+                "filename": "log20170605.csv",
+                "reason": "box: FileNotFoundError: Box file not found: EDGAR log files/Unfiltered/2017/log20170605.csv"
+            },
+            {
+                "filename": "log20170611.csv",
+                "reason": "box: FileNotFoundError: Box file not found: EDGAR log files/Filtered/2017/log20170611.csv"
+            },
+            {
+                "filename": "log20170628.csv",
+                "reason": "box: FileNotFoundError: Box file not found: EDGAR log files/Filtered/2017/log20170628.csv"
+            }
+        ]
+    }
+}

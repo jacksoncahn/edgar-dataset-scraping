@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+temporary_output_storage.csv
+temporary_output_storage.parquet
