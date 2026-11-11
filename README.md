@@ -50,6 +50,10 @@ DOJ:
   63.145.235.0 – 63.145.235.255   (doj_uncertain)
 ```
 
+# How to use this scraper
+
+Coming soon.
+
 # DIY
 
-To reproduce this yourself: scrape each daily CSV from the EDGAR year links (2003–2017), then filter by the FTC and DOJ IP ranges above.
+To reproduce identical results: scrape each daily CSV from the EDGAR year links (2003–2017), then filter by the FTC and DOJ IP ranges above.
